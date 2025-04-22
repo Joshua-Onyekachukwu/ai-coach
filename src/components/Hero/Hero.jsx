@@ -99,13 +99,13 @@ export default function HeroSection() {
                     <div
                         className="relative rounded-2xl overflow-hidden border border-gray-700/50 shadow-2xl w-full max-w-4xl h-64 sm:h-80 bg-gradient-to-br from-gray-800 to-gray-900/50">
                         {/* Video embed */}
-                        <iframe
-                            src="https://videocdn.cdnpk.net/videos/a84aa7ef-fc5d-4ba2-8d3a-585fb598fb02/horizontal/previews/clear/small.mp4?token=exp=1745232404~hmac=e7f73672231539dc6f0f6e64069aa6d38c16e36bc020d58189438c78631960f3"
-                            className="absolute w-full h-full object-cover"
-                            allowFullScreen
-                            frameBorder="0"
-                            title="Happy man using laptop video"
-                        ></iframe>
+                        {/*<iframe*/}
+                        {/*    src="https://videocdn.cdnpk.net/videos/a84aa7ef-fc5d-4ba2-8d3a-585fb598fb02/horizontal/previews/clear/small.mp4?token=exp=1745232404~hmac=e7f73672231539dc6f0f6e64069aa6d38c16e36bc020d58189438c78631960f3"*/}
+                        {/*    className="absolute w-full h-full object-cover"*/}
+                        {/*    allowFullScreen*/}
+                        {/*    frameBorder="0"*/}
+                        {/*    title="Happy man using laptop video"*/}
+                        {/*></iframe>*/}
 
                         {/* Overlay elements */}
                         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 to-transparent z-10"></div>
