@@ -1,0 +1,145 @@
+.appointment-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.error-message {
+    color: #d32f2f;
+    background-color: #fde0e0;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.date-navigator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.date-navigator button {
+    padding: 8px 16px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.date-navigator button:hover {
+    background-color: #3367d6;
+}
+
+.scheduler-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    min-height: 80px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #3367d6;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.warning-text {
+    color: #f39c12;
+    margin-top: 10px;
+}
+
+.appointments-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.appointments-list li {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.appointments-list li.completed {
+    opacity: 0.7;
+    background-color: #f0f0f0;
+}
+
+.appointment-info {
+    flex: 1;
+}
+
+.appointment-time {
+    font-weight: bold;
+    color: #4285f4;
+    margin-right: 15px;
+}
+
+.appointment-title {
+    font-weight: bold;
+}
+
+.appointment-notes {
+    color: #666;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.appointment-actions {
+    display: flex;
+}
+
+.completed-btn {
+    background-color: #0f9d58 !important;
+}
+
+.delete-btn {
+    background-color: #d32f2f;
+}
+
+.delete-btn:hover {
+    background-color: #b71c1c;
+}
